@@ -1,0 +1,30 @@
+
+/*pega o tamanho total da tela */
+body{
+        min-height: 100vh;
+        background-color: #CCC;
+        /*codigo abaixo gera imagen de background aleatorio /g/ --> img em preto e branco*/
+        /* para maiores informações acessar site https://unsplash.it*/
+        background-image: url('https://unsplash.it/g/1920/1080?random');
+}
+
+.login-form {
+    margin-top: 50vh;
+   
+    padding: 20px 30px;
+    background-color: RGBA(0, 0, 0, .5);
+    color: #FFF;
+
+    /*margin-top: 50vh* abaixa de mais o form de login entao o comando TranslateY(-50%) reduz pela metade a autura */
+    transform: translateY(-50%);
+}
+
+.login-form h1 {
+    margin: 0 0 5px;
+}
+
+.login-form h2{
+    margin: 0 0 30px;
+    font-size: 1em;
+}
+
